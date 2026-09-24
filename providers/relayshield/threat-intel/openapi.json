@@ -2738,32 +2738,26 @@
                     "accepts": [
                       {
                         "scheme": "exact",
-                        "network": "base",
-                        "maxAmountRequired": "350000",
-                        "resource": "https://api.relayshield.net/v1/payg/mcp-registry-risk",
-                        "description": "RelayShield mcp registry risk check",
-                        "mimeType": "application/json",
+                        "network": "eip155:8453",
                         "payTo": "0x002CfD89c5636F45E3C8576D6E35154748412bAc",
                         "maxTimeoutSeconds": 300,
                         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
                         "extra": {
                           "name": "USD Coin",
                           "version": "2"
-                        }
+                        },
+                        "amount": "350000"
                       },
                       {
                         "scheme": "exact",
                         "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-                        "maxAmountRequired": "350000",
-                        "resource": "https://api.relayshield.net/v1/payg/mcp-registry-risk",
-                        "description": "RelayShield mcp registry risk check",
-                        "mimeType": "application/json",
                         "payTo": "E64PiTT7U8ZUWFKdkrBFw1YzdD2bU1gKcuGnBRVqp7M6",
                         "maxTimeoutSeconds": 60,
                         "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
                         "extra": {
                           "feePayer": "EwWqGE4ZFKLofuestmU4LDdK7XM1N4ALgdZccwYugwGd"
-                        }
+                        },
+                        "amount": "350000"
                       }
                     ],
                     "extensions": {}
@@ -3613,32 +3607,26 @@
                     "accepts": [
                       {
                         "scheme": "exact",
-                        "network": "base",
-                        "maxAmountRequired": "350000",
-                        "resource": "https://api.relayshield.net/v1/payg/prompt-injection-breach",
-                        "description": "RelayShield prompt injection breach check",
-                        "mimeType": "application/json",
+                        "network": "eip155:8453",
                         "payTo": "0x002CfD89c5636F45E3C8576D6E35154748412bAc",
                         "maxTimeoutSeconds": 300,
                         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
                         "extra": {
                           "name": "USD Coin",
                           "version": "2"
-                        }
+                        },
+                        "amount": "350000"
                       },
                       {
                         "scheme": "exact",
                         "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-                        "maxAmountRequired": "350000",
-                        "resource": "https://api.relayshield.net/v1/payg/prompt-injection-breach",
-                        "description": "RelayShield prompt injection breach check",
-                        "mimeType": "application/json",
                         "payTo": "E64PiTT7U8ZUWFKdkrBFw1YzdD2bU1gKcuGnBRVqp7M6",
                         "maxTimeoutSeconds": 60,
                         "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
                         "extra": {
                           "feePayer": "EwWqGE4ZFKLofuestmU4LDdK7XM1N4ALgdZccwYugwGd"
-                        }
+                        },
+                        "amount": "350000"
                       }
                     ],
                     "extensions": {}
@@ -3968,7 +3956,8 @@
               }
             }
           }
-        }
+        },
+        "security": []
       }
     },
     "/v1/payg/scan-file": {
@@ -4981,32 +4970,26 @@
                     "accepts": [
                       {
                         "scheme": "exact",
-                        "network": "base",
-                        "maxAmountRequired": "50000",
-                        "resource": "https://api.relayshield.net/v1/payg/secret-scan-text",
-                        "description": "RelayShield secret scan text check",
-                        "mimeType": "application/json",
+                        "network": "eip155:8453",
                         "payTo": "0x002CfD89c5636F45E3C8576D6E35154748412bAc",
                         "maxTimeoutSeconds": 300,
                         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
                         "extra": {
                           "name": "USD Coin",
                           "version": "2"
-                        }
+                        },
+                        "amount": "50000"
                       },
                       {
                         "scheme": "exact",
                         "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
-                        "maxAmountRequired": "50000",
-                        "resource": "https://api.relayshield.net/v1/payg/secret-scan-text",
-                        "description": "RelayShield secret scan text check",
-                        "mimeType": "application/json",
                         "payTo": "E64PiTT7U8ZUWFKdkrBFw1YzdD2bU1gKcuGnBRVqp7M6",
                         "maxTimeoutSeconds": 60,
                         "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
                         "extra": {
                           "feePayer": "EwWqGE4ZFKLofuestmU4LDdK7XM1N4ALgdZccwYugwGd"
-                        }
+                        },
+                        "amount": "50000"
                       }
                     ],
                     "extensions": {}
