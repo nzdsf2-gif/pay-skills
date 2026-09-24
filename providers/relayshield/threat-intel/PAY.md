@@ -17,6 +17,6 @@ Docs: https://api.relayshield.net/docs — the x402 manifest at https://api.rela
 
 ## Spend-aware usage
 
-- Batch wallet or domain screening with the batch endpoints instead of one call per item.
+- Batch wallet screening with the wallet-screen-batch endpoint instead of one call per item.
 - Prefer the narrow single-purpose endpoint (e.g. token-security) over a broad scan when you only need one verdict.
 - Reuse identifiers across calls — lookups are deterministic for the same input.
